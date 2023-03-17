@@ -1,0 +1,157 @@
+header{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+
+    width: 100%;
+    height: 131px;
+
+    background: #EFF2F6;
+
+    border-bottom: 1px solid #DEE5ED;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#menuLogo{
+    width: 170px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+nav{
+    width: 100%;
+}
+
+nav a{
+    display: inline-block;
+    width: 10%;
+    padding: 2%;
+    margin: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+}
+
+a:hover{
+    background-color: rgb(42, 73, 144);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+a:active{
+    background-color: rgb(137, 167, 209);
+    color: rgb(255, 255, 255);
+}
+
+.active{
+    background-color: rgb(42, 73, 144);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.sideMenu{
+    width: 10%;
+    height: 100vh;
+    background-color: rgb(42, 73, 144);
+    text-align: center;
+    float: left;
+}
+
+.sideMenu nav{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sideElements{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto 20px auto;
+    width: 70%;
+    padding: 8px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sideElements:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 91, 91);
+    border-radius: 0px;
+}
+
+.defaultHome{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    float: right;
+    height: 100vh;
+}
+
+.defaultHome article{
+    height: 100%;
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+
+.defaultHome article h1{
+    display: inline-block;
+    width: 80%;
+    height: fit-content;
+    text-align: left;
+    font-size: 100px;
+    color: #0c2e5a;
+    margin: 150px 0 30px 0;
+}
+
+.defaultHome article h2{
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    font-size: 30px;
+    color: #486284;
+    margin: 0 0 10px 0;
+}
+
+.defaultHome section{
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+.defaultHome section img{
+    width: 70%;
+    display: block;
+    margin: 80px auto;
+}
+
+.defaultHome article p{
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    font-size: 20px;
+    color: #8CA2C0;
+    margin: 0 0 10px 0;
+}
+
+.chartView{
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.chartView img{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+}
+
+p.highlight:hover{ 
+    color:green;
+  }

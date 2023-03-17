@@ -1,1 +1,2 @@
-# webCourseHtml
+# logiMed
+Desarrollo de plataforma LogiMed
